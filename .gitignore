@@ -11,3 +11,5 @@ __pycache__/
 runs/
 My First Project.v7i.yolov5pytorch/
 *.zip
+
+.env

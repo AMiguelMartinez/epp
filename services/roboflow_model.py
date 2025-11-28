@@ -2,10 +2,11 @@
 from inference_sdk import InferenceHTTPClient
 import base64
 import concurrent.futures
+import os
 
 client = InferenceHTTPClient(
     api_url="https://serverless.roboflow.com",
-    api_key="aRauZwUW9e3JnTzlXSkc",
+    api_key=os.getenv("ROBOFLOW_API_KEY"),
 )
 
 
