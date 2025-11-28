@@ -1,0 +1,13 @@
+# entornos virtuales
+epp/
+.venv/
+venv/
+
+# compilados de Python
+__pycache__/
+*.pyc
+
+# artefactos de entrenamiento YOLO
+runs/
+My First Project.v7i.yolov5pytorch/
+*.zip
