@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 import numpy as np
 
-model_local = YOLO("best.pt")
+model_local = YOLO("best3.pt")
 
 def predict_local(image_bytes: bytes):
     """

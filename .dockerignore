@@ -1,17 +1,11 @@
-# entornos virtuales
 epp/
 .venv/
 venv/
-
-# compilados de Python
 __pycache__/
 *.pyc
 
-# artefactos de entrenamiento YOLO
 runs/
 My First Project.v7i.yolov5pytorch/
 Custom Workflow Object Detection.v5i.yolov11/
 Custom Workflow Object Detection.v6i.yolov11/
 *.zip
-
-.env

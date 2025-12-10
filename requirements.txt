@@ -8,3 +8,4 @@ numpy
 inference-sdk
 Pillow
 python-multipart
+matplotlib==3.8.4
